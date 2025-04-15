@@ -1,5 +1,5 @@
 const WeatherDashboard = () => {
-  return <div>weather-dashboard</div>;
+  return <div>WeatherDashboard</div>;
 };
 
 export default WeatherDashboard;
