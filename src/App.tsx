@@ -4,8 +4,8 @@ import { Button } from "./components/ui/button";
 function App() {
   return (
     <div>
-      Start of application
-      <Button>Subscribe</Button>
+      Start of application <br />
+      <Button variant={"link"}>Subscribe</Button>
     </div>
   );
 }
