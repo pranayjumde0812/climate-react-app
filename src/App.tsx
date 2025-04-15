@@ -1,12 +1,12 @@
 import "./App.css";
-import { Button } from "./components/ui/button";
+import { BrowserRouter } from "react-router-dom";
+import Layout from "./components/common/layout";
 
 function App() {
   return (
-    <div>
-      Start of application <br />
-      <Button variant={"link"}>Subscribe</Button>
-    </div>
+    <BrowserRouter>
+      <Layout>Hello</Layout>
+    </BrowserRouter>
   );
 }
 
